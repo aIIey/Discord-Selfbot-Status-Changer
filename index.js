@@ -5,7 +5,7 @@ const client = new Discord.Client({
   checkUpdate: false
 });
 
-const OWNER_ID = '71434390550355968';
+const OWNER_ID = 'xx';
 let mimicTarget = null;
 let skTarget = null;
 let useClownEmoji = true;
@@ -18,17 +18,17 @@ let spam = false;
 let spamMessage = '';
 let rTarget = null;
 let rEmoji = null;
-const AUTH = 'NzE0MzQzOTA1NTAzNTU5Njg.GaGWlF.upPP3kdQzaOFgx9SpYNS8Oa_ElZFVeufeUQTMI';
+const AUTH = 'xx';
 
 client.on('ready', async () => {
   console.clear();
   console.log(`${client.user.tag} - rich presence started!`);
 
   const r = new Discord.RichPresence()
-    .setApplicationId('1109976841604845569')
+    .setApplicationId('x')
     .setType('STREAMING')
     .setURL('https://twitch.tv/discord') // Must be a YouTube video link 
-    .setName('xoxo');
+    .setName('xx');
 
   client.user.setActivity(r);
   client.user.setPresence({ status: "dnd" });
